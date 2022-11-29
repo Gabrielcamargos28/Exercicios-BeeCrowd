@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <math.h>
+
+
+int main(){
+
+    double gastoHoras,velocidadeM,litros,distancia;
+
+    scanf("%lf %lf",&gastoHoras,&velocidadeM);
+
+    distancia = velocidadeM * gastoHoras;
+
+    litros = (distancia /  12);
+
+    printf("%.3lf\n", litros);
+
+
+    return 0;
+}
